@@ -1,0 +1,29 @@
+@import '../../Assets/sass/general.scss';
+
+.hero-section{
+    background-image: url("../../Assets/img/hero/hero_bg.svg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 150px 0;
+
+    .hero{
+
+        &__context{
+            width: 32%;
+
+            h1{
+                margin: 0;
+                @include text (48px , 600 , #000);
+                line-height: 100%;
+                letter-spacing: -0.02em;
+            }
+
+            p{
+                @include text (18px , 500 , rgba(0, 0, 0, 0.5));
+                margin: 16px 0 51px 0;
+                line-height: 28px;
+            }
+        }
+    }
+}
