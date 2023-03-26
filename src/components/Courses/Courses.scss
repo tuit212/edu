@@ -1,0 +1,36 @@
+@import '../../Assets/sass/general.scss';
+
+.section-courses{
+    margin-top: 200px;
+
+    .courses{
+
+        h4{
+            @include text (32px , 600 , #000);
+            line-height: 100%;
+            letter-spacing: -0.02em;
+        }
+
+        &__pages{
+            width: 60%;
+            margin: 20px 0;
+            background: #FFFFFF;
+            border-radius: 5px;
+            padding: 10px 14px;
+            @include center (flex , center , space-between);
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+
+            .btn__cart{
+                padding: 18px 39px;
+                @include text (14px , 600 ,  rgba(0, 0, 0, 0.5));
+                line-height: 100%;
+                border-radius: 5px;
+            }
+            
+            .active{
+                background: #1D1D23;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
