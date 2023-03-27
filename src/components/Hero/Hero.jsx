@@ -12,7 +12,9 @@ const Hero = () => {
                     <p>
                         Masofaviy o'quv kurslar orqali siz, eng so`ngi darsliklarni oson, qulay va mukammal o'rganishingiz mumkin.
                     </p>
-                    <Btn/>
+                    <Btn
+                        text='Hoziroq boshlash'
+                    />
                 </div>
             </div>
         </div>

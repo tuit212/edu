@@ -1,10 +1,10 @@
 import React from 'react'
 import './Btn.scss'
 
-const Btn = () => {
+const Btn = ({text}) => {
   return (
     <div className='button'>
-      Hoziroq boshlash
+      {text}
     </div>
   )
 }
